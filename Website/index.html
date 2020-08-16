@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="RebrandHero-drawer RebrandHero-drawer--init">
+      <section class="RebrandHero-drawer-content">
+        <nav class="RebrandHero-drawer-navigation">
+          <button
+            id="sign-up-in"
+            class="RebrandHero-drawer-navigation--link ob-button ob-button--link"
+            data-uxa-log="index_sign_in"
+          >
+            Anmelden</button
+          ><a
+            href="/install"
+            class="RebrandHero-drawer-navigation--link ob-button ob-button--link"
+            >Herunterladen</a
+          ><button
+            id="close-panel"
+            class="RebrandHero-drawer--close RebrandHero-drawer-navigation--close ob-button ob-button--close button--visible"
+          >
+            Schließen
+          </button>
+        </nav>
+        <section class="RebrandHero-drawer-forms">
+          <div class="signin-form form--hidden">
+            <div class="sign-in-up--subcontainer">
+              <div class="signin-title">Melden Sie sich an</div>
+              <div class="signin-link">
+                oder <a href="#" id="sign-up-link">erstellen Sie ein Konto</a>
+              </div>
+            </div>
+            <div id="component8432985566136965449">
+              <div class="login-form-container small">
+                <div class="regular-login-forms">
+                  <div class="login-form-container--subcontainer">
+                    <form
+                      class="clearfix credentials-form login-form"
+                      method="POST"
+                    >
+                      <div class="credentials-form__fields">
+                        <div
+                          class="text-input small login-text-input login-email"
+                        >
+                          <div class="text-input-error-wrapper"></div>
+                          <div class="text-input-wrapper">
+                            <input
+                              id="login_email046989350936750274"
+                              type="email"
+                              class="text-input-input"
+                              name="login_email"
+                              autocomplete="off"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="text-input small login-text-input login-password"
+                        >
+                          <div class="text-input-error-wrapper"></div>
+                          <div class="text-input-wrapper">
+                            <input
+                              id="login_password9239366279238993"
+                              type="password"
+                              class="text-input-input password-input"
+                              name="login_password"
+                              autocomplete="off"
+                              value="MUC1860!"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clearfix">
+                        <div class="checkbox small remember-me checkbox-inline">
+                          <div class="text-input-error-wrapper"></div>
+                          <input
+                            type="checkbox"
+                            id="remember_me6142360671099774"
+                            name="remember_me"
+                            aria-checked="true"
+                            checked=""
+                          /><label
+                            for="remember_me6142360671099774"
+                            class="checkbox_label"
+                            ><span>Angemeldet bleiben</span></label
+                          >
+                        </div>
+                        <a
+                          class="forgot-password-link"
+                          href="/forgot?email_from_login=ryan.s@hotmail.de"
+                          >Kennwort vergessen?</a
+                        ><button
+                          class="login-button signin-button button-primary"
+                          type="submit"
+                        >
+                          <div class="signin-text">Anmelden</div>
+                        </button>
+                      </div>
+                    </form>
+                    <div class="login-form-container__google-div">
+                      <button
+                        class="auth-google button-primary"
+                        type="button"
+                        data-uxa-log="google_login_start"
+                      >
+                        <div class="sign-in-text">Mit Google anmelden</div>
+                      </button>
+                    </div>
+                    <div class="login-form-container__apple-div">
+                      <button
+                        class="auth-apple button-primary"
+                        type="button"
+                        data-uxa-log="sia_login_start"
+                      >
+                        <div class="sign-in-text">Mit Apple anmelden</div>
+                      </button>
+                    </div>
+                    <div
+                      class="recaptcha-v2-challenge-container recaptcha-v2-challenge-container--invisible"
+                      style="display: block;"
+                    >
+                      <div class="recaptcha-terms-text">
+                        Diese Seite ist durch reCAPTCHA geschützt und unterliegt
+                        der
+                        <a
+                          href="https://www.google.com/policies/privacy/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >Datenschutzerklärung</a
+                        >
+                        und den
+                        <a
+                          href="https://www.google.com/policies/terms/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >Nutzungsbedingungen</a
+                        >
+                        von Google.
+                      </div>
+                      <div class="recaptcha_v2_challenge" style="">
+                        <div
+                          class="grecaptcha-badge"
+                          data-style="bottomright"
+                          style="
+                            width: 256px;
+                            height: 60px;
+                            display: block;
+                            transition: right 0.3s ease 0s;
+                            position: fixed;
+                            bottom: 14px;
+                            right: -186px;
+                            box-shadow: gray 0px 0px 5px;
+                            border-radius: 2px;
+                            overflow: hidden;
+                          "
+                        >
+                          <div class="grecaptcha-logo">
+                            <iframe
+                              src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdnLyIUAAAAAOiGPtddh-g3KiJRoDGGPD-6dqXo&amp;co=aHR0cHM6Ly93d3cuZHJvcGJveC5jb206NDQz&amp;hl=de&amp;v=TPiWapjoyMdQOtxLT9_b4n2W&amp;size=invisible&amp;cb=x33ehdfuzto9"
+                              role="presentation"
+                              name="a-512rn9kryyzf"
+                              scrolling="no"
+                              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                              width="256"
+                              height="60"
+                              frameborder="0"
+                            ></iframe>
+                          </div>
+                          <div class="grecaptcha-error"></div>
+                          <textarea
+                            id="g-recaptcha-response"
+                            name="g-recaptcha-response"
+                            class="g-recaptcha-response"
+                            style="
+                              width: 250px;
+                              height: 40px;
+                              border: 1px solid rgb(193, 193, 193);
+                              margin: 10px 25px;
+                              padding: 0px;
+                              resize: none;
+                              display: none;
+                            "
+                          ></textarea>
+                        </div>
+                      </div>
+                      <div class="recaptcha_v2_challenge" style="">
+                        <div
+                          class="grecaptcha-badge"
+                          data-style="none"
+                          style="
+                            width: 256px;
+                            height: 60px;
+                            position: fixed;
+                            visibility: hidden;
+                          "
+                        >
+                          <div class="grecaptcha-logo">
+                            <iframe
+                              src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeQblAUAAAAAHIxpoTyzyKHd_2AbdDjSGcyhHSJ&amp;co=aHR0cHM6Ly93d3cuZHJvcGJveC5jb206NDQz&amp;hl=de&amp;v=TPiWapjoyMdQOtxLT9_b4n2W&amp;size=invisible&amp;cb=56in8zcl0cgb"
+                              role="presentation"
+                              name="a-w716x7f3huhl"
+                              scrolling="no"
+                              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                              width="256"
+                              height="60"
+                              frameborder="0"
+                            ></iframe>
+                          </div>
+                          <div class="grecaptcha-error"></div>
+                          <textarea
+                            id="g-recaptcha-response-1"
+                            name="g-recaptcha-response"
+                            class="g-recaptcha-response"
+                            style="
+                              width: 250px;
+                              height: 40px;
+                              border: 1px solid rgb(193, 193, 193);
+                              margin: 10px 25px;
+                              padding: 0px;
+                              resize: none;
+                              display: none;
+                            "
+                          ></textarea>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="register-form form">
+            <div class="sign-in-up--subcontainer">
+              <div class="signup-title">Jetzt registrieren</div>
+              <div class="signup-link">
+                oder
+                <a href="#" id="sign-in-link"
+                  >melden Sie sich bei Ihrem Konto an</a
+                >
+              </div>
+              <div id="component8432985566136965450">
+                <div
+                  class="form_shown login-form-container register index standard"
+                >
+                  <form
+                    class="clearfix credentials-form register-form"
+                    method="post"
+                  >
+                    <div class="credentials-form__fields">
+                      <div class="register-form__name-fields">
+                        <div
+                          class="text-input standard input-fname first text-input__margin-right"
+                        >
+                          <div class="text-input-error-wrapper"></div>
+                          <div class="text-input-wrapper">
+                            <input
+                              id="fname7540156316539899"
+                              type="text"
+                              class="text-input-input"
+                              name="fname"
+                              autocomplete="off"
+                              value=""
+                            /><label for="fname7540156316539899">Vorname</label>
+                          </div>
+                        </div>
+                        <div class="text-input standard input-lname second">
+                          <div class="text-input-error-wrapper"></div>
+                          <div class="text-input-wrapper">
+                            <input
+                              id="lname5527328194743307"
+                              type="text"
+                              class="text-input-input"
+                              name="lname"
+                              autocomplete="off"
+                              value=""
+                            /><label for="lname5527328194743307"
+                              >Nachname</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="register-form__credential-fields">
+                        <div
+                          class="text-input standard input-email text-input__margin-right"
+                        >
+                          <div class="text-input-error-wrapper"></div>
+                          <div class="text-input-wrapper">
+                            <input
+                              id="email3630976047001062"
+                              type="email"
+                              class="text-input-input"
+                              name="email"
+                              autocomplete="off"
+                              value="ryan.s@hotmail.de"
+                            />
+                          </div>
+                        </div>
+                        <div class="text-input standard input-password">
+                          <div class="text-input-error-wrapper"></div>
+                          <div class="text-input-wrapper">
+                            <div
+                              class="password-input-meter standard"
+                              tabindex="-1"
+                              aria-label="Kennwortstärke"
+                            >
+                              <div class="password-input-dot"></div>
+                              <div class="password-input-dot"></div>
+                              <div
+                                class="password-input-dot password-input-dot-selected--weak password-input-dot-selected"
+                              ></div>
+                              <div
+                                class="password-input-dot password-input-dot-selected--weak password-input-dot-selected"
+                              ></div>
+                              <div class="bubble-dropdown-v2-container">
+                                <button
+                                  class="password-bubble__button"
+                                  aria-expanded="false"
+                                  id="bubbleDropdownTarget-1"
+                                ></button>
+                              </div>
+                            </div>
+                            <input
+                              id="password6425941957147779"
+                              type="password"
+                              class="text-input-input password-input"
+                              name="password"
+                              autocomplete="off"
+                              value="MUC1860!"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="checkbox standard agree checkbox-inline">
+                      <div class="text-input-error-wrapper"></div>
+                      <input
+                        type="checkbox"
+                        id="tos_agree06880388657430403"
+                        name="tos_agree"
+                        aria-checked="false"
+                      /><label
+                        for="tos_agree06880388657430403"
+                        class="checkbox_label"
+                        ><span
+                          >Ich stimme den
+                          <a
+                            href="/terms"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            >Allgemeinen Geschäftsbedingungen von Dropbox</a
+                          >
+                          zu</span
+                        ></label
+                      >
+                    </div>
+                    <div
+                      class="checkbox standard agree marketing-opt-in-checkbox checkbox-inline"
+                    >
+                      <div class="text-input-error-wrapper"></div>
+                      <input
+                        type="checkbox"
+                        id="marketing_opt_in7333157288479607"
+                        name="marketing_opt_in"
+                        aria-checked="false"
+                      /><label
+                        for="marketing_opt_in7333157288479607"
+                        class="checkbox_label"
+                        ><span
+                          >Ich möchte über Dropbox-Neuigkeiten auf dem Laufenden
+                          bleiben</span
+                        ></label
+                      >
+                    </div>
+                    <button
+                      class="login-button button-primary"
+                      type="submit"
+                      data-uxa-log="register_form_submit_button"
+                    >
+                      <span>Registrieren</span></button
+                    ><button
+                      class="auth-google button-primary button-undefined"
+                      type="button"
+                      data-uxa-log="google_signup_start"
+                    >
+                      <span class="sign-up-text">Mit Google registrieren</span>
+                    </button>
+                    <div
+                      class="recaptcha-v2-challenge-container recaptcha-v2-challenge-container--invisible"
+                      style="display: block;"
+                    >
+                      <div class="recaptcha-terms-text">
+                        Diese Seite ist durch reCAPTCHA geschützt und unterliegt
+                        der
+                        <a
+                          href="https://www.google.com/policies/privacy/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >Datenschutzerklärung</a
+                        >
+                        und den
+                        <a
+                          href="https://www.google.com/policies/terms/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >Nutzungsbedingungen</a
+                        >
+                        von Google.
+                      </div>
+                      <div class="recaptcha_v2_challenge" style="">
+                        <div
+                          class="grecaptcha-badge"
+                          data-style="none"
+                          style="
+                            width: 256px;
+                            height: 60px;
+                            position: fixed;
+                            visibility: hidden;
+                          "
+                        >
+                          <div class="grecaptcha-logo">
+                            <iframe
+                              src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdnLyIUAAAAAOiGPtddh-g3KiJRoDGGPD-6dqXo&amp;co=aHR0cHM6Ly93d3cuZHJvcGJveC5jb206NDQz&amp;hl=de&amp;v=TPiWapjoyMdQOtxLT9_b4n2W&amp;size=invisible&amp;cb=ofqjii9dbhn9"
+                              role="presentation"
+                              name="a-skr8jzb78oct"
+                              scrolling="no"
+                              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                              width="256"
+                              height="60"
+                              frameborder="0"
+                            ></iframe>
+                          </div>
+                          <div class="grecaptcha-error"></div>
+                          <textarea
+                            id="g-recaptcha-response-2"
+                            name="g-recaptcha-response"
+                            class="g-recaptcha-response"
+                            style="
+                              width: 250px;
+                              height: 40px;
+                              border: 1px solid rgb(193, 193, 193);
+                              margin: 10px 25px;
+                              padding: 0px;
+                              resize: none;
+                              display: none;
+                            "
+                          ></textarea>
+                        </div>
+                      </div>
+                      <div class="recaptcha_v2_challenge" style="">
+                        <div
+                          class="grecaptcha-badge"
+                          data-style="none"
+                          style="
+                            width: 256px;
+                            height: 60px;
+                            position: fixed;
+                            visibility: hidden;
+                          "
+                        >
+                          <div class="grecaptcha-logo">
+                            <iframe
+                              src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeQblAUAAAAAHIxpoTyzyKHd_2AbdDjSGcyhHSJ&amp;co=aHR0cHM6Ly93d3cuZHJvcGJveC5jb206NDQz&amp;hl=de&amp;v=TPiWapjoyMdQOtxLT9_b4n2W&amp;size=invisible&amp;cb=o540h9ty4fht"
+                              role="presentation"
+                              name="a-mnsmxat1xcy"
+                              scrolling="no"
+                              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                              width="256"
+                              height="60"
+                              frameborder="0"
+                            ></iframe>
+                          </div>
+                          <div class="grecaptcha-error"></div>
+                          <textarea
+                            id="g-recaptcha-response-3"
+                            name="g-recaptcha-response"
+                            class="g-recaptcha-response"
+                            style="
+                              width: 250px;
+                              height: 40px;
+                              border: 1px solid rgb(193, 193, 193);
+                              margin: 10px 25px;
+                              padding: 0px;
+                              resize: none;
+                              display: none;
+                            "
+                          ></textarea>
+                        </div>
+                        <iframe style="display: none;"></iframe>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
